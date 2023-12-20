@@ -1,0 +1,33 @@
+.navbar {
+    height: 50px;
+}
+.menubar {
+    width: 100%;
+    padding: 1rem;
+    position: fixed;
+    background-color: #FFCB05;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    z-index: 5;
+}
+.menubar_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.menubar_ul > li {
+    /*position: relative;*/
+    display: inline-block;
+}
+.menubar_ul > li a {
+    text-align: center;
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.menubar_ul > li a:hover {
+    /*color: #597812;*/
+    color: #3564AD;
+    font-weight: normal;
+}
