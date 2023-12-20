@@ -20,6 +20,7 @@ const Boardlist = () => {
         <StyledBoardlist>
         <section id="board-container">
             <h2>공지사항</h2>
+            {/* react는 thead tbody가 필수 */}
             <table id="tbl-board">
                 <thead>
                 <tr>
